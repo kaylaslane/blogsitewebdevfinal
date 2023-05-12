@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Open+Sans:wght@500&display=swap');
 
 * {
   margin: 0;
@@ -11,8 +11,8 @@ body {
   margin-bottom: 0.5em;
   display: flex;
   justify-content: center;
-  background-color: #f7f8fc;
-  font-family: "Assistant", sans-serif;
+  background-color: #EFEBE9;
+  font-family:"Assistant", sans-serif;
   color: #10182f;
 }
 
@@ -21,8 +21,8 @@ html {
 }
 
 header {
-  font-family: "Assistant", sans-serif;
-  background-color: #795548;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #3E2723;
   color: #eee;
   position: fixed;
   top: 0;
@@ -36,12 +36,13 @@ header {
   flex-wrap: wrap;
   display: inline-block;
   vertical-align: baseline;
-  word-spacing: 200px;
+  word-spacing: 20px;
 }
 
 header a {
-  color: #eee;
+  color:#eee;
   text-decoration: none;
+  font-family:"Assistant", sans-serif;
 }
 
 header a:hover {
@@ -70,6 +71,7 @@ h1 {
   height: 200px;
   object-fit: cover;
   cursor: pointer;
+  border-radius: 10px;
 }
 .card-body {
   display: flex;
@@ -80,7 +82,12 @@ h1 {
   cursor: pointer;
 }
 
-.card-body:hover{
+.card-body a{
+  color: #000000;
+   text-decoration:none;
+}
+
+.card-body a:hover{
     color: #BF360C;
 }
 
@@ -100,4 +107,16 @@ h1 {
   color: #fff;
   padding: 2px 10px;
   text-transform: uppercase;
+}
+
+footer {
+  font-family:"Assistant", sans-serif;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 1em;
+  width: 100%;
+  background-color: #3E2723;
+  color: white;
+  text-align: center;
 }

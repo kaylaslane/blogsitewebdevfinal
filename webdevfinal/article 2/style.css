@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Handlee&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+ background-color: #006064;
+  color: #eee;
+  font-family: "Assistant", sans-serif;
+  padding: 5em;
+  font-size: 1rem;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+header h1{
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+}
+
+header a {
+  font-size: 1rem;
+  color: #eee;
+  padding: 1em; 
+ text-decoration: none;
+ font-family:"Assistant", sans-serif;
+    }
+    
+    header a:hover {
+      color: #BF360C;
+    }
+
+p {
+  font-size: 1rem;
+  font-family: "Assistant", sans-serif;
+}
+
+main {
+  font-family: "Assistant", sans-serif;
+  max-width: 50em;
+  margin: .50em auto;
+  padding: 5em;
+}
